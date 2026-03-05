@@ -1,0 +1,116 @@
+{
+  "pid_stability": {
+    "passed": true,
+    "detail": {
+      "bull": {
+        "pid_final_N": 11934,
+        "sta_final_N": 11934,
+        "pid_dev": 0.193,
+        "sta_dev": 0.193,
+        "pid_mad": 1934.0,
+        "sta_mad": 1934.0,
+        "within_target": true,
+        "pid_better": "False"
+      },
+      "bear": {
+        "pid_final_N": 5536,
+        "sta_final_N": 7401,
+        "pid_dev": 0.446,
+        "sta_dev": 0.26,
+        "pid_mad": 2558.5,
+        "sta_mad": 1598.8,
+        "within_target": false,
+        "pid_better": "False"
+      },
+      "competitor": {
+        "pid_final_N": 11559,
+        "sta_final_N": 11934,
+        "pid_dev": 0.156,
+        "sta_dev": 0.193,
+        "pid_mad": 1062.9,
+        "sta_mad": 1934.0,
+        "within_target": true,
+        "pid_better": "True"
+      },
+      "regulatory": {
+        "pid_final_N": 9152,
+        "sta_final_N": 11934,
+        "pid_dev": 0.085,
+        "sta_dev": 0.193,
+        "pid_mad": 718.6,
+        "sta_mad": 1875.0,
+        "within_target": true,
+        "pid_better": "True"
+      }
+    }
+  },
+  "static_divergence": {
+    "passed": false,
+    "detail": 0
+  },
+  "burn_mint_dynamics": {
+    "passed": "True",
+    "detail": {
+      "max_s2r": 0.006092,
+      "trending_up": "True"
+    }
+  },
+  "wash_trading_defense": {
+    "passed": true,
+    "detail": null
+  },
+  "reputation_compression": {
+    "passed": true,
+    "detail": null
+  },
+  "supply_accounting": {
+    "passed": true,
+    "detail": null
+  },
+  "price_nonneg": {
+    "passed": "True",
+    "detail": {
+      "min_price": 0.069674
+    }
+  },
+  "exhibits": {
+    "passed": true,
+    "detail": {
+      "found": 26,
+      "total": 26,
+      "supplementary_found": 2
+    }
+  },
+  "sensitivity_robustness": {
+    "passed": true,
+    "detail": {
+      "viable_kp_count": 5
+    }
+  },
+  "slashing_sensitivity": {
+    "passed": false,
+    "detail": {
+      "mid_range_scenarios": 2,
+      "bull": {
+        "baseline_C_change": -51.9,
+        "range": "-52.4% to -48.4%",
+        "in_middle_60pct": "False"
+      },
+      "bear": {
+        "baseline_C_change": 4.5,
+        "range": "-29.2% to 30.7%",
+        "in_middle_60pct": "True"
+      },
+      "competitor": {
+        "baseline_C_change": -73.4,
+        "range": "-75.5% to -64.6%",
+        "in_middle_60pct": "False"
+      },
+      "regulatory": {
+        "baseline_C_change": -51.3,
+        "range": "-59.3% to -38.1%",
+        "in_middle_60pct": "True"
+      }
+    }
+  }
+}

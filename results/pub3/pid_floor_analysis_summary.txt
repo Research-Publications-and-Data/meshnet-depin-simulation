@@ -1,0 +1,76 @@
+PID Bound Saturation Analysis — Bear Ensemble (30 seeds)
+======================================================================
+Hypothesis: PID floor creates zombie-network trap in bear scenarios
+Verdict:    REFUTED (rare edge case)
+
+Constants:  PID_MIN=27397 (0.25x), PID_MAX=328767 (3.0x), BASE=109589
+Bear shock: day 360 (month 12)
+
+── Seed 42 Baseline ──
+  E range:    [69404, 244504]
+  Multiplier: [0.63x, 2.23x]
+  Floor hits: 0
+  Ceil hits:  0
+  Verification: PASS
+
+── Ensemble Summary ──
+  Seeds: 30
+  Floor binding:   1 seeds [1003]
+  Ceiling binding: 0 seeds []
+  E_min across all: 27397 (0.25x)
+  E_max across all: 254847 (2.33x)
+  Authority used:   76%
+
+── Per-Seed Detail ──
+  Seed      E_min      E_max   Min_x   Max_x  Floor   Ceil  N_final    P_final
+--------------------------------------------------------------------------------
+  1000      72065     247406    0.66    2.26      0      0     4240   0.076702
+  1001      49558     244809    0.45    2.23      0      0     6596   0.241098
+  1002      70077     252853    0.64    2.31      0      0     4974   0.087364
+  1003      27397     244736    0.25    2.23    238      0     7071   0.344448
+  1004      62119     247220    0.57    2.26      0      0     6476   0.161543
+  1005      65456     246509    0.60    2.25      0      0     4961   0.056107
+  1006      45413     244945    0.41    2.24      0      0    10780   0.677464
+  1007      62996     248774    0.57    2.27      0      0     7477   0.172767
+  1008      39139     253227    0.36    2.31      0      0     5912   0.113099
+  1009      41356     250718    0.38    2.29      0      0     6242   0.194517
+  1010      66814     246135    0.61    2.25      0      0     5511   0.122833
+  1011      57910     247340    0.53    2.26      0      0     5990   0.145232
+  1012      45825     244969    0.42    2.24      0      0     6500   0.267286
+  1013      56434     244434    0.52    2.23      0      0     5977   0.159272
+  1014      72844     244594    0.66    2.23      0      0     7071   0.195497
+  1015      32699     244728    0.30    2.23      0      0     7303   0.279302
+  1016      47979     254847    0.44    2.33      0      0     6887   0.190627
+  1017      46767     245681    0.43    2.24      0      0     7614   0.306423
+  1018      31230     244693    0.28    2.23      0      0     8121   0.460925
+  1019      69116     245271    0.63    2.24      0      0     6485   0.163374
+  1020      67014     245273    0.61    2.24      0      0     6507   0.150729
+  1021      75928     250157    0.69    2.28      0      0     5526   0.166751
+  1022      28334     248408    0.26    2.27      0      0     5288   0.126808
+  1023      40407     245262    0.37    2.24      0      0     8253   0.357896
+  1024      82287     252337    0.75    2.30      0      0     5582   0.155748
+  1025      89047     252053    0.81    2.30      0      0     6050   0.163895
+  1026      80295     246939    0.73    2.25      0      0     3690   0.049244
+  1027      46928     245197    0.43    2.24      0      0     6420   0.189278
+  1028      65331     250911    0.60    2.29      0      0     5021   0.063419
+  1029      48778     247871    0.45    2.26      0      0     4659   0.087183
+
+── Yearly Pattern (mean across seeds) ──
+ Year     Mean_E      Min_E      Max_E   %Floor    %Ceil  #Floor   #Ceil
+---------------------------------------------------------------------------
+    1     221223     181107     254847    0.000    0.000       0       0
+    2     153197      97488     221427    0.000    0.000       0       0
+    3      79898      27397     175975    0.411    0.000       1       0
+    4      90564      27397     230954    1.763    0.000       1       0
+    5     183361      68319     246939    0.000    0.000       0       0
+
+── Phase Analysis ──
+  Pre-shock  (day 0–360):   mean E = 221598, floor days = 0, ceiling days = 0
+  Post-shock (day 360–1825): mean E = 126986, floor days = 238, ceiling days = 0
+
+── Cross-check ──
+  multi_seed_results.csv: CONSISTENT
+  Matching seeds: 30, Mismatching: 0
+
+── Paper Sentence ──
+Across the 30-seed bear ensemble, the PID controller reaches its 0.25× floor in only 1 of 30 seeds (238 of 54,750 seed-days, 0.43%), exclusively in the post-shock period (first binding at day 1050). The remaining 29 seeds range from 0.26× to 2.33× base, confirming that the dilution feedback loop operates predominantly within mid-range authority; the floor is reachable but not the systematic driver of bear-market dynamics.

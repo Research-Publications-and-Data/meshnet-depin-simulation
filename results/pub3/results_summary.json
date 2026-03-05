@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "competitor_pid_mean": 10099.0,
+    "competitor_pid_cv": 0.0871,
+    "competitor_pid_5pct": 8880.0,
+    "competitor_static_mean": 8610.0,
+    "competitor_static_cv": 0.544,
+    "competitor_static_5pct": 1049.0,
+    "variance_compression_ratio": 6.25
+  },
+  "oprisk": {
+    "competitor_pid_mean": 10346.0,
+    "competitor_pid_cv": 0.0825,
+    "competitor_pid_5pct": 9041.0,
+    "competitor_static_mean": 8331.0,
+    "competitor_static_cv": 0.5687,
+    "competitor_static_5pct": 1300.0,
+    "variance_compression_ratio": 6.89
+  },
+  "hypotheses": {
+    "h1_degradation_ratio": 0.91,
+    "h2_flash_crash_max_drop_pct": 24.94,
+    "h3_avg_reputation_oprisk_final": 0.1827,
+    "h4_static_gap_widened": true
+  }
+}

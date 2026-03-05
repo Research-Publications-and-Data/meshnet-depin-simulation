@@ -1,0 +1,5 @@
+seed,timestep,scenario,emission_model,op_risk,N,E,B,F_daily,P,C,T,s2r,bme,slashed_total,fraud_captured_pct,op_slashed_total,op_exited_total,pid_integral,pid_emission_rate,avg_reputation,downtime_count,diagnostic_id
+42,1824,competitor,pid,True,11320,27397.0,20.66,484.77,7.126532,1559147.0,600452879,0.000754,0.000754,450445740,0.001,7139,1470,-5.0,0.25,0.0259,2235,high_pdown_no_corr
+42,1824,regulatory,pid,True,11317,27397.0,49.92,751.11,4.668446,0.0,573289497,0.001822,0.001822,423278883,0.0009,10614,1539,-5.0,0.25,0.0277,2332,high_pdown_no_corr
+42,1824,competitor,pid,True,10928,29467.0,55.64,484.72,2.679261,78056242.0,507432627,0.001888,0.001888,357418984,0.0006,13643,1448,-4.3545,0.2689,0.2788,37,low_pdown_corr_only
+42,1824,regulatory,pid,True,10821,27397.0,47.88,574.19,3.474668,53921951.0,477223495,0.001748,0.001748,327206786,0.0005,16709,1517,-5.0,0.25,0.2769,1,low_pdown_corr_only

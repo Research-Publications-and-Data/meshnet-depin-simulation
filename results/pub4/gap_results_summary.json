@@ -1,0 +1,32 @@
+{
+  "p_down_bug": {
+    "confirmed": true,
+    "fix_applied": true,
+    "sweep_now_varies": true,
+    "p_down_001_final_N": 9814,
+    "p_down_005_final_N": 9232,
+    "p_down_020_final_N": 11754
+  },
+  "reputation_threshold": {
+    "critical_threshold": 0.95,
+    "critical_delta_rep": null,
+    "recommendation": "Lower uptime threshold to 0.95 for DePIN protocols (achieves avg_rep ~1.0; 0.90 achieves ~2.0)"
+  },
+  "regulatory_ensemble": {
+    "pid_oprisk_mean": 10802.0,
+    "pid_oprisk_5pct": 9628.0,
+    "pid_oprisk_cv": 0.0705,
+    "static_oprisk_mean": 8271.0,
+    "static_oprisk_5pct": 1030.0,
+    "static_oprisk_cv": 0.5614,
+    "seed42_percentile_in_distribution": 66.7
+  },
+  "rho_reversal": {
+    "reversal_rho": 0.01,
+    "rho_010_mean_N": 10346.0,
+    "rho_010_cv": 0.0825,
+    "rho_030_mean_N": 10536.0,
+    "rho_030_cv": 0.1064,
+    "monotonic": false
+  }
+}
