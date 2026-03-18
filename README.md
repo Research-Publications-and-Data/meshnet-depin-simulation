@@ -6,9 +6,9 @@ Agent-based simulation of a five-mechanism DePIN (Decentralized Physical Infrast
 
 This codebase supports two papers:
 
-**Pub3:** Zukowski, Z. (2026). "Adaptive Tokenomics: A Systems Engineering Approach to Programmable Incentive Design." SSRN Working Paper. [Link]
+**Pub3:** Zukowski, Z. (2026). "Adaptive Tokenomics: A Systems Engineering Approach to Programmable Incentive Design." SSRN Working Paper. [Link](https://ssrn.com/abstract=6364158)
 
-**Pub4:** Zukowski, Z. (2026). "Operational Risk in Token Economies: How Infrastructure Failures Strengthen Adaptive Controllers and Break Reputation Systems." SSRN Working Paper. [Link]
+**Pub4:** Zukowski, Z. (2026). "Operational Risk in Token Economies: How Infrastructure Failures Strengthen Adaptive Controllers and Break Reputation Systems." SSRN Working Paper. [Link](https://ssrn.com/abstract=6352118)
 
 ## Key Findings
 
@@ -101,22 +101,28 @@ MIT License. See [LICENSE](LICENSE).
 
 ## Citation
 
+If you use this code, please cite the associated papers:
+
 ```bibtex
 @article{zukowski2026adaptive,
   title={Adaptive Tokenomics: A Systems Engineering Approach to Programmable Incentive Design},
   author={Zukowski, Zach},
   journal={SSRN Working Paper},
-  year={2026}
+  year={2026},
+  doi={10.2139/ssrn.6364158},
+  url={https://ssrn.com/abstract=6364158}
 }
 
 @article{zukowski2026oprisk,
   title={Operational Risk in Token Economies: How Infrastructure Failures Strengthen Adaptive Controllers and Break Reputation Systems},
   author={Zukowski, Zach},
   journal={SSRN Working Paper},
-  year={2026}
+  year={2026},
+  doi={10.2139/ssrn.6352118},
+  url={https://ssrn.com/abstract=6352118}
 }
 ```
 
 ## Author
 
-Zach Zukowski | [Medium](https://medium.com/@CryptoZach) | [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=)
+Zach Zukowski | [Medium](https://medium.com/@CryptoZach) | [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=10386216)

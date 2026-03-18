@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "MeshNet DePIN Simulation"
+message: "If you use this software, please cite the associated papers."
+type: software
+authors:
+  - family-names: Zukowski
+    given-names: Zach
+    email: zach@cryptozach.com
+    orcid: "https://orcid.org/0009-0006-3642-2450"
+repository-code: "https://github.com/Research-Publications-and-Data/meshnet-depin-simulation"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Adaptive Tokenomics: A Systems Engineering Approach to Programmable Incentive Design"
+  authors:
+    - family-names: Zukowski
+      given-names: Zach
+  year: 2026
+  month: 3
+  doi: "10.2139/ssrn.6364158"
+  url: "https://ssrn.com/abstract=6364158"
+  journal: "SSRN Working Paper"
+references:
+  - type: article
+    title: "Operational Risk in Token Economies: How Infrastructure Failures Strengthen Adaptive Controllers and Break Reputation Systems"
+    authors:
+      - family-names: Zukowski
+        given-names: Zach
+    year: 2026
+    doi: "10.2139/ssrn.6352118"
+    url: "https://ssrn.com/abstract=6352118"
+    journal: "SSRN Working Paper"
