@@ -6,7 +6,7 @@
 
 **Year:** 2026
 
-**SSRN:** [Link to be added after upload]
+**SSRN:** https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6364158
 
 ## Abstract
 
